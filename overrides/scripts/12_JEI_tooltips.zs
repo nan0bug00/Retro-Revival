@@ -1,0 +1,2 @@
+// Buildcraft Pump
+<buildcraftfactory:pump>.addTooltip(format.red("It's recommended that you use Industrial Foregoing's Fluid Pump instead for performance reasons.  Use this for crafting recipes only."));
