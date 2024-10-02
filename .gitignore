@@ -1,16 +1,17 @@
 # Folders to ignore
-/dumps/
-/crash-reports/
-/.mixin.out/
-/logs/
-/local/
-/libraries/
-/llibrary/
-/saves/
-/screenshots/
-/vintagefix/
-/world/
-/xaero/
+dumps/
+crash-reports/
+.mixin.out/
+logs/
+local/
+libraries/
+llibrary/
+mods/
+saves/
+screenshots/
+vintagefix/
+world/
+xaero/
 **/*.pdf
 
 # Client Configs
