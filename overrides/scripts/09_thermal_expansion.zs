@@ -10,6 +10,14 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<ore:dustCharcoal>.firstItem
 mods.thermalexpansion.InductionSmelter.removeRecipe(<ore:fuelCoke>.firstItem, <ore:dustIron>.firstItem);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<ore:fuelCoke>.firstItem, <minecraft:iron_ingot>);
 
+# Remove Gearworking Die Easy Gears
+mods.thermalexpansion.Compactor.removeGearRecipe(<ore:ingotIron>);
+mods.thermalexpansion.Compactor.removeGearRecipe(<ore:ingotBronze>);
+mods.thermalexpansion.Compactor.removeGearRecipe(<ore:ingotSteel>);
+mods.thermalexpansion.Compactor.removeGearRecipe(<gregtechmod:ingot_titanium>);
+mods.thermalexpansion.Compactor.removeGearRecipe(<gregtechmod:ingot_tungsten_steel>);
+mods.thermalexpansion.Compactor.removeGearRecipe(<ore:ingotIridium>);
+
 # Fix Hardened Glass Obsidian Requirements
 mods.thermalexpansion.InductionSmelter.removeRecipe(<ore:dustObsidian>.firstItem, <ore:dustLead>.firstItem);
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:glass:3> * 2, <gregtechmod:dust_obsidian> * 2, <gregtechmod:dust_lead>, 8000);
