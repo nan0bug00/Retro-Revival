@@ -1,0 +1,53 @@
+{
+    "populate": {
+        "BAUXITE": {
+            "enabled": true,
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "gregtechmod:bauxite_ore"
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 2,
+            "chunk-chance": 1,
+            "min-height": 32,
+            "max-height": 80,
+            "retrogen": true,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    "plains",
+                    "forest",
+                    "forest_hills",
+                    "birch_forest", 
+                    "birch_forest_hills", 
+                    "twilightforest:twilight_forest",
+                    "twilightforest:dense_twilight_forest",
+                    "twilightforest:dark_forest",
+                    "twilightforest:enchanted_forest",
+                    "traverse:flatlands",
+                    "traverse:autumnal_woods",
+                    "traverse:autumnal_wooded_hills",
+                    "traverse:wooded_plateau",
+                    "traverse:coniferous_forest",
+                    "traverse:coniferous_wooded_hills",
+                    "traverse:wooded_island",
+                    "traverse:woodlands",
+                    "traverse:temperate_rainforest",
+                    "traverse:forested_hills",
+                    "traverse:birch_forested_hills",
+                    "traverse:thicket",
+                    "traverse:meadow"
+                ]
+            },
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        }
+    }
+}
