@@ -1,6 +1,7 @@
 // Portions of this script were created by ThePixelbrain (https://github.com/ThePixelbrain/Old-School-Greg/tree/main) & used under MIT license.
 
 import mods.ic2.Macerator;
+import mods.thermalexpansion.InductionSmelter;
 
 # No easy Steel
 mods.thermalexpansion.InductionSmelter.removeRecipe(<ore:dustCoal>.firstItem, <ore:dustIron>.firstItem);
@@ -11,12 +12,12 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<ore:fuelCoke>.firstItem, <o
 mods.thermalexpansion.InductionSmelter.removeRecipe(<ore:fuelCoke>.firstItem, <minecraft:iron_ingot>);
 
 # Remove Gearworking Die Easy Gears
-mods.thermalexpansion.Compactor.removeGearRecipe(<ore:ingotIron>);
-mods.thermalexpansion.Compactor.removeGearRecipe(<ore:ingotBronze>);
-mods.thermalexpansion.Compactor.removeGearRecipe(<ore:ingotSteel>);
+mods.thermalexpansion.Compactor.removeGearRecipe(<minecraft:iron_ingot>);
+mods.thermalexpansion.Compactor.removeGearRecipe(<thermalfoundation:material:163>);
+mods.thermalexpansion.Compactor.removeGearRecipe(<gregtechmod:ingot_steel>);
 mods.thermalexpansion.Compactor.removeGearRecipe(<gregtechmod:ingot_titanium>);
 mods.thermalexpansion.Compactor.removeGearRecipe(<gregtechmod:ingot_tungsten_steel>);
-mods.thermalexpansion.Compactor.removeGearRecipe(<ore:ingotIridium>);
+mods.thermalexpansion.Compactor.removeGearRecipe(<gregtechmod:ingot_iridium>);
 
 # Fix Hardened Glass Obsidian Requirements
 mods.thermalexpansion.InductionSmelter.removeRecipe(<ore:dustObsidian>.firstItem, <ore:dustLead>.firstItem);
@@ -29,7 +30,8 @@ Macerator.addRecipe(<thermalfoundation:material:2053> * 4, <thermalfoundation:ma
 
 // TE machine frames
 recipes.remove(<thermalexpansion:frame>);
-recipes.addShaped(<thermalexpansion:frame>, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>],[<ore:blockGlass>, <ore:gearTin>, <ore:blockGlass>], [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
+# recipes.addShaped(<thermalexpansion:frame>, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>],[<ore:blockGlass>, <ore:gearTin>, <ore:blockGlass>], [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
+recipes.addShaped(<thermalexpansion:frame>, [[<ic2:ingot>, <minecraft:glass>, <ic2:ingot>],[<minecraft:glass>, <thermalfoundation:material:257>, <minecraft:glass>], [<ic2:ingot>, <minecraft:glass>, <ic2:ingot>]]); #use mixed metal ingot instead of steel
 
 // TE Hammers/Excavators
 recipes.remove(<thermalfoundation:tool.excavator_tin>);
