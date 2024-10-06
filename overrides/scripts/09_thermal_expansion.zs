@@ -1,7 +1,6 @@
 // Portions of this script were created by ThePixelbrain (https://github.com/ThePixelbrain/Old-School-Greg/tree/main) & used under MIT license.
 
 import mods.ic2.Macerator;
-import mods.thermalexpansion.InductionSmelter;
 
 # No easy Steel
 mods.thermalexpansion.InductionSmelter.removeRecipe(<ore:dustCoal>.firstItem, <ore:dustIron>.firstItem);
@@ -30,8 +29,8 @@ Macerator.addRecipe(<thermalfoundation:material:2053> * 4, <thermalfoundation:ma
 
 // TE machine frames
 recipes.remove(<thermalexpansion:frame>);
-# recipes.addShaped(<thermalexpansion:frame>, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>],[<ore:blockGlass>, <ore:gearTin>, <ore:blockGlass>], [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
-recipes.addShaped(<thermalexpansion:frame>, [[<ic2:ingot>, <minecraft:glass>, <ic2:ingot>],[<minecraft:glass>, <thermalfoundation:material:257>, <minecraft:glass>], [<ic2:ingot>, <minecraft:glass>, <ic2:ingot>]]); #use mixed metal ingot instead of steel
+#recipes.addShaped(<thermalexpansion:frame>, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>],[<ore:blockGlass>, <ore:gearTin>, <ore:blockGlass>], [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
+recipes.addShaped(<thermalexpansion:frame>, [[<ic2:ingot>, <minecraft:glass>, <ic2:ingot>],[<minecraft:glass>, <thermalfoundation:material:257>, <minecraft:glass>], [<ic2:ingot>, <minecraft:glass>, <ic2:ingot>]]);
 
 // TE Hammers/Excavators
 recipes.remove(<thermalfoundation:tool.excavator_tin>);
