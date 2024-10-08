@@ -31,7 +31,7 @@ recipes.addShaped(<thermalfoundation:material:256>, [[null, <ore:ingotCopper>, n
 recipes.addShaped(<thermalfoundation:material:27>, [[null, <ore:gemEmerald>, null], [<ore:gemEmerald>, <ore:gearGold>, <ore:gemEmerald>], [null, <ore:gemEmerald>, null]]);
 recipes.addShaped(<thermalfoundation:material:26>, [[null, <ore:gemDiamond>, null], [<ore:gemDiamond>, <ore:gearGold>, <ore:gemDiamond>], [null, <ore:gemDiamond>, null]]);
 recipes.addShaped(<thermalfoundation:material:25>, [[<ore:stickGold>, <ore:plateGold>, <ore:stickGold>], [<ore:plateGold>, <ore:craftingToolWrench>, <ore:plateGold>], [<ore:stickGold>, <ore:plateGold>, <ore:stickGold>]]);
-recipes.addShaped(<gregtechmod:gear_iron>, [[<ore:stickRefinedIron>, <ore:plateRefinedIron>, <gregtechmod:rod_refined_iron>], [<ore:plateRefinedIron>, <ore:craftingToolWrench>, <ore:plateRefinedIron>], [<ore:stickRefinedIron>, <ore:plateRefinedIron>, <ore:stickRefinedIron>]]);
+recipes.addShaped(<gregtechmod:gear_iron>, [[<ore:stickIron>, <ore:plateIron>, <ore:stickIron>], [<ore:plateIron>, <ore:craftingToolWrench>, <ore:plateIron>], [<ore:stickIron>, <ore:plateIron>, <ore:stickIron>]]);
 recipes.addShaped(<thermalfoundation:material:23>, [[null, <ore:cobblestone>, null], [<ore:cobblestone>, <ore:gearWood>, <ore:cobblestone>], [null, <ore:cobblestone>, null]]);
 recipes.addShaped(<thermalfoundation:material:22>, [[null, <ore:stickWood>, null], [<ore:stickWood>, null, <ore:stickWood>], [null, <ore:stickWood>, null]]);
 
