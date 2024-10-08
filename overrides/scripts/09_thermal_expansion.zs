@@ -111,3 +111,7 @@ recipes.addShaped(<thermalfoundation:upgrade>, [[null, <ore:plateInvar>, null],[
 recipes.addShaped(<thermalfoundation:upgrade:1>, [[null, <ore:plateElectrum>, null],[<ore:plateElectrum>, <ore:gearSilver>, <ore:plateElectrum>], [<ore:blockGlassHardened>, <ore:plateElectrum>, <ore:blockGlassHardened>]]);
 recipes.addShaped(<thermalfoundation:upgrade:2>, [[null, <ore:plateSignalum>, null],[<ore:plateSignalum>, <ore:gearElectrum>, <ore:plateSignalum>], [<ore:dustCryotheum>, <ore:plateSignalum>, <ore:dustCryotheum>]]);
 recipes.addShaped(<thermalfoundation:upgrade:3>, [[null, <ore:plateEnderium>, null],[<ore:plateEnderium>, <ore:gearLumium>, <ore:plateEnderium>], [<ore:dustPyrotheum>, <ore:plateEnderium>, <ore:dustPyrotheum>]]);
+
+// Pulverizer Obsidian > Obsidian Dust
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:obsidian>);
+mods.thermalexpansion.Pulverizer.addRecipe(<gregtechmod:dust_obsidian>, <minecraft:obsidian>, 4000);
