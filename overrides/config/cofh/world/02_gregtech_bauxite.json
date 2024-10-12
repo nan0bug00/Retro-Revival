@@ -8,7 +8,7 @@
                     "name": "gregtechmod:bauxite_ore"
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 1
+                "cluster-size": 16
             },
             "cluster-count": 2,
             "chunk-chance": 1,
