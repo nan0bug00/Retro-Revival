@@ -7,3 +7,6 @@ recipes.addShaped(<quarryplus:workbenchplus>, [[<gregtechmod:plate_titanium>, <g
 // Remove Chunk Destroyer
 JEI.removeAndHide(<quarryplus:chunkdestroyer>);
 #recipes.remove(<quarryplus:chunkdestroyer>);
+
+// Remove Solid Fuel Quarry
+JEI.removeAndHide(<quarryplus:solidquarry>);
