@@ -19,4 +19,4 @@ recipes.addShaped(<yabba:upgrade_gold_tier>, [[null, <ore:plateGold>, null],[<or
 recipes.addShaped(<yabba:upgrade_iron_tier>, [[null, <gregtechmod:plate_refined_iron>, null],[<gregtechmod:plate_refined_iron>, <yabba:upgrade_blank>, <gregtechmod:plate_refined_iron>], [null, <gregtechmod:plate_refined_iron>, null]]);
 
 // Remove Barrel Connector
-JEI.removeAndHide(<yabba:item_barrel_connector>;)
+JEI.removeAndHide(<yabba:item_barrel_connector>);
