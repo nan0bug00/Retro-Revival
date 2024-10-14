@@ -12,6 +12,7 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<ore:fuelCoke>.firstItem, <m
 
 # Remove Gearworking Die Easy Gears
 mods.thermalexpansion.Compactor.removeGearRecipe(<minecraft:iron_ingot>);
+mods.thermalexpansion.Compactor.removeGearRecipe(<ic2:ingot:7>);
 # Added back, mostly used for TE stuff: 
 # mods.thermalexpansion.Compactor.removeGearRecipe(<thermalfoundation:material:163>); Added back, mostly used for TE stuff
 mods.thermalexpansion.Compactor.removeGearRecipe(<gregtechmod:ingot_steel>);
